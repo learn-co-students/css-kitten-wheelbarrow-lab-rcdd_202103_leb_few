@@ -1,6 +1,37 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@Adnan-961
+Adnan-961
+/
+css-kitten-wheelbarrow-lab-rcdd_202103_leb_few
+forked from learn-co-students/css-kitten-wheelbarrow-lab-rcdd_202103_leb_few
+0
+024
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+css-kitten-wheelbarrow-lab-rcdd_202103_leb_few/css/place-kitty.css
+@cjbrock
+cjbrock Solution branch for FEWDS course
+Latest commit b981a55 on Jun 7, 2018
+ History
+ 2 contributors
+@jongrover@cjbrock
+46 lines (36 sloc)  906 Bytes
+
 /* Select the image with a class of kitty-1 */
 
-/*__write_selector_here__*/ {
+.kitty-1 {
   position: absolute;
   z-index: 1;
   top: 276px;
@@ -9,7 +40,7 @@
 
 /* Select the image with id of kitty-2 */
 
-/*__write_selector_here__*/ {
+#kitty-2 {
   position: absolute;
   z-index: 2;
   top: 212px;
@@ -18,7 +49,7 @@
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
-/*__write_selector_here__*/ {
+#basket img {
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -27,7 +58,7 @@
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
-/*__write_selector_here__*/ {
+#ball + img {
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -36,7 +67,7 @@
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
-/*__write_selector_here__*/ {
+img[alt="Kitty 5"] {
   position: absolute;
   z-index: 3;
   top: 217px;
